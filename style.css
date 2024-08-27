@@ -1,0 +1,40 @@
+img{
+    height: 600px;
+    width: 800px;
+  
+   
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.share{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    
+}
+a{
+    margin-left: 20px;
+}
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+}
